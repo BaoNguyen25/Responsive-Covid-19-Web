@@ -160,6 +160,80 @@ header .navbar ul li a:hover{
     font-size: 5rem; 
 }
 
+.protect .heading{
+    text-align: center;
+    padding: 1rem;
+}
+
+.protect .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.protect .box-container .box{
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.1);
+    padding: 2rem;
+    margin: 2rem;
+    width: 34rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.protect .box-container .box img{
+    height: 17rem;
+    width: 17rem;
+}
+
+.protect .box-container .box h3{
+    font-size: 2.5rem;
+    color :#666;
+    padding: 1rem 0;
+}
+
+.protect .box-container .box:hover{
+    transform:translateY(-1rem);
+}
+
+.symptom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.symptom .content{
+    flex:1 1 40rem;
+}
+
+.symptom .image{
+    flex:1 1 40rem;
+}
+
+.symptom .image img{
+    width:100%;
+}
+
+.symptom .content ul{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 1rem 0;
+}
+
+.symptom .content ul .two{
+    padding-left: 4.5rem;
+}
+
+.symptom .content ul li{
+    margin-left: 2rem;
+    font-size:1.5rem;
+    color: #666;
+    padding: .5rem 0;
+}
+
 
 /* media queries */
 
@@ -231,3 +305,6 @@ header .navbar ul li a:hover{
         padding-top: 9rem;
     }
 }
+
+
+
