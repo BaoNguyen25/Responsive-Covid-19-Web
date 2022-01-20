@@ -351,6 +351,8 @@ header .navbar ul li a:hover{
 .footer .box-container .box{
     flex: 1 1 25rem;
     margin: 2rem;
+
+    padding-left: 10rem;
 }
 
 .footer .box-container .box h3{
