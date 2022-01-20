@@ -16,7 +16,7 @@ $(document).ready(function(){
         {
             $('.scroll-top').hide();
         }
-
+        
     $('section').each(function(){
 
         let height = $(this).height();
